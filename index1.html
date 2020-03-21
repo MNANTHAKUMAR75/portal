@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Project Management Portal</title>
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <style>
+       body
+        {
+        background-image: url('PM1.jpg');
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        .head
+        {
+            position: absolute;
+            left: 200px;
+            top: 0px;
+            font-size: 50px;
+            font-weight: bolder;
+        }
+        .quote1
+        {
+            top:450px;
+            font-size: 50px;
+            left: 50px;
+            position: absolute;
+            font-family: cursive;
+            color: rgb(3, 20, 43);
+
+        }
+        .quote2
+        {
+            top:200px;
+            font-size:50px;
+            left: 50px;
+            position: absolute;
+            font-family: cursive;
+        }
+        .signupbox
+        {
+            left: 880px;
+            position: absolute;
+            top: 10px;
+            font-size: 25px;
+            color: rgb(3, 20, 43);
+            font-family: cursive;
+            background-color: rgb(221, 230, 240);
+            border-radius: 7px;
+            border: rgb(1, 1, 17);
+
+        }
+        .signupbox input
+        {
+            padding: 7px;
+            color: rgb(2, 30, 39);
+            border-radius: 10px;
+            text-align:justify;
+            font-family: cursive;
+            background-color:  rgb(221, 230, 240);
+            
+        }
+        .signupbox input[type="btn"]
+        {
+            font-weight: bold;
+            font-size: 10px;
+            padding: 5px;
+
+        }
+    </style>
+    
+
+</head>
+<body>
+    
+    <img src="nan.png" alt="logo">
+    <p1 class="head">
+        Project Management
+    </p1>
+    <div>
+    <p2 class="quote1" ><b>If The Plan Doesn't work<br> change the plan not the goal</b></p2>
+    </div>
+    <div>
+    <p3 class="quote2"><b>Don't wait for opportunity<br> create it</b></p3>
+    </div>
+    
+    <div class="signupbox">
+    <form>
+    <h1>Sign up</h1>
+    <p4>Display your idea's <br>by signing in</p4><br>
+    <i class="fas fa-user"></i>
+    <input type="text" name="username" placeholder="username"><br>
+    <i class="fab fa-black-tie"></i>
+    <input list="Year" name="Year" placeholder="Year">
+    <datalist id="Year">
+        <option value="1">First Year</option>
+        <option value="2">Second Year</option>
+        <option value="3">Third Year</option>
+        <option value="4">Final Year</option>
+    </datalist><br>
+    <i class="fas fa-cogs"></i> 
+    <input list="Departments" name="departments" placeholder="Department">
+    <datalist id="Departments">
+            <option value="Mech">Mechanical</option>
+            <option value="CSE">Computer Science</option>
+            <option value="EEE">Electrical and Electronics</option>
+            <option value="ECE">Electrical and Communication</option>
+            <option value="civil">civil</option>
+            <option value="IT">Information Technology</option>
+    </datalist>
+    <input list="Section" name="Section" placeholder="Section">
+    <datalist id="Section">
+        <option value="A"></option>
+        <option value="B"></option>
+        <option value="C"></option>
+        <option value="D"></option>
+    </datalist><br>
+    <i class="fas fa-birthday-cake"></i>
+    <input type="date" name="DOB" ><br>
+    <i class="far fa-envelope"></i>
+    <input type="email" name="email" placeholder="xyz@gmail.com"><br>
+    <i class="fas fa-lock"></i>
+    <input type="password" name="password" placeholder="password"><br>
+    <i class="fas fa-lock"></i>
+    <input type="password" name="cnfrmpasswrd" placeholder="confirm password"><br>
+    <input type="button" value="sign up" onclick="alert('Rember password!')">
+    <input type="reset" onclick="alert('everything has been reset')">
+    </form>
+    </div>
+
+    
+
+    
+</body>
+</html>
